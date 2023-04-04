@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+  }
+  .navbar .navbar-nav {
+    margin: 10px 10px 10px auto;
+  }
+  .navbar-brand {
+    display: flex;
+  }
+
+  .navbar-brand img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .navbar-brand h3 {
+    margin: 10px;
+    margin-left: 2px;
+    font-weight: 600;
+  }
+  .navbar-brand span {
+    color: rgb(255, 162, 0);
+  }
+  .navbar-nav .nav-item {
+    color: black;
+    font-weight: 500;
+    margin-right: 20px;
+  }
+
+  .dropdown-menu {
+    margin: 0px 10px;
+  }
+  .dropdown-menu a {
+    padding: 10px;
+    transition: 0.5s;
+  }
+  .dropdown-menu h5 {
+    padding: 10px;
+
+    font-weight: 600;
+  }
+  .dropdown-menu:hover {
+    background: linear-gradient(45deg, rgb(31, 17, 231), rgb(13, 193, 221));
+  }
+  .book-now {
+    display: inline-block;
+  }
+  .book-now a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-weight: 600;
+    background-color: rgb(0, 98, 255);
+    color: white;
+  }
+  .book-now a:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+  }
+
+  .contact {
+    display: flex;
+    margin: 20px 0;
+  }
+  .contact div button {
+    margin: 5px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  .contact div button:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  .contact div i {
+    margin: 5px 0;
+    background-color: rgb(162, 163, 164);
+    width: 30px;
+    height: 30px;
+    padding: 6px 0;
+    border-radius: 50%;
+  }
+  .packages {
+    background-color: black;
+    width: 100%;
+    min-height: 30vh;
+    text-align: center;
+  }
+  .packages h1 {
+    color: white;
+    padding-top: 20px;
+  }
+  .packages div ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin: 50px 10px 0px 0px;
+    text-align: center;
+  }
+  .packages div ul a {
+    color: white;
+    text-decoration: none;
+    margin: 2px;
+  }
+  .top a i {
+    position: fixed;
+    padding: 13px 15px;
+    font-size: 20px;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    border-radius: 50%;
+    padding: auto;
+    color: white;
+  }
+  .img-slide{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  .img-slide .card{
+    width: 300px;
+    margin: 10px;
+    border:none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  table tr td button{
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 1px 1px 3px rgb(10, 198, 250);
+    text-transform: capitalize;
+    font-weight: 400;
+    background:linear-gradient(95deg,rgb(68, 207, 246),rgb(0, 62, 128));
+  }
+
+  @media screen and (max-width: 576px) {
+    .contact {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  #wtsapp{
+    position: fixed;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    bottom: 90px;
+    right: 27px;
+    font-size: 30px;
+     border-radius: 50%;
+    /* color: rgb(255, 255, 255);
+    background-color: black;
+    align-items: center;
+    justify-content: center; */ */
+
+}
+#wtsapp i{
+  text-align: center;
+  border-radius: 50%;
+  /* background-color: rgb(17, 226, 17); */
+  font-size: 40px;
+  color: rgb(0, 228, 80);
+}
